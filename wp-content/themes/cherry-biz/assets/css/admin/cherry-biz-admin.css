@@ -1,0 +1,48 @@
+/*
+ * customizer layout animated border style
+ */
+
+input[type=checkbox]:before {
+	content: '';
+	margin: -3px 0 0 -4px;
+}
+
+.cherry-biz-accordion-section-title {
+	color: #444;
+	padding: 9px 10px 10px 14px;
+	background-color: #fff;
+	box-shadow: 0 1px 4px 0 #ccc;
+	line-height: 21px;
+	margin: 0 -12px 0;
+}
+
+.cherry-biz-title {
+	color: #246EB9;
+	font-weight: 700;
+	font-size: 15px;
+	border-left: 3px solid #246EB9;
+	padding-left: 8px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.cherry-biz-accordion-section-desc {
+	margin-bottom: 0;
+}
+
+.cherry-biz-accordion-section-desc:before {
+	content: '\2139';
+	background: #555;
+	color: #fff;
+	border-radius: 50%;
+	width: 14px;
+	height: 14px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 4px;
+}
+
+ul.accordion-section li:nth-child(2) {
+	margin-bottom: 0;
+}
